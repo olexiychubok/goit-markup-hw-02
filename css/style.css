@@ -4,6 +4,8 @@
     --hover-text: rgba(33, 150, 243, 1);
     --link-text: rgba(117, 117, 117, 1);
     --address-text-op60: rgba(255, 255, 255, 0.6);
+    --section: rgba(47, 48, 58, 1);
+
 }
 
 /* for all */
@@ -13,6 +15,7 @@
     text-decoration: none;
 }
 
+
 .header {
     background-color: var(--second-text);
 }
@@ -21,11 +24,11 @@
 
 .logo {
     font-family: 'Roboto', sans-serif;
-    color: var(--main-text);
+    color: var(--hover-text);
 }
 
 .logo-web {
-    color: var(--hover-text);
+    color: var(--main-text);
 }
 
 /* site-nav */
@@ -35,33 +38,28 @@
     color: var(--main-text)
 }
 
-.site-nav .link:hover a {
+.site-nav .link .item:hover,
+.site-nav .link .item:focus {
     color: var(--hover-text)
 }
 
-.site-nav .link:focus a {
-    color: var(--hover-text);
-}
-
 /* nav-contacts */
-.contact .item a {
+.contact .link .item {
     list-style: none;
     text-decoration: none;
     color: var(--link-text)
 }
 
-.contact .item:hover a {
+.contact .link .item:hover,
+.contact .link .item:focus {
     color: var(--hover-text);
 }
 
-.contact .item:focus a {
-    color: var(--hover-text);
-}
-
+/* MAIN! */
 /* hero */
 
 .hero {
-    background-color: rgba(47, 48, 58, 1);
+    background-color: var(--section)
     ;
 }
 
@@ -86,4 +84,52 @@
 
 .features-items .features-text {
     color: var(--link-text);
+}
+
+/* doing */
+
+.doing-title {
+    color: var(--main-text);
+}
+
+/* team */
+
+.team-title {
+    color: var(--main-text);
+}
+
+.team-name {
+    color: var(--main-text);
+}
+
+.team-text {
+    color: var(--link-text);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--section);
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    color: var(--hover-text);
+}
+
+.logo-footer {
+    color: var(--second-text);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address .item {
+    color: var(--link-text);
+}
+
+.address .item:hover,
+.address .item:focus {
+    color: var(--hover-text)
 }
