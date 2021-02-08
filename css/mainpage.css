@@ -75,10 +75,18 @@
     color: var(--main-text);
 }
 
+.doing-img {
+    width: 370px;
+}
+
 /* team */
 
 .team {
     background-color: var(--section-team);
+}
+
+.team-img {
+    width: 270px;
 }
 
 .team-title {

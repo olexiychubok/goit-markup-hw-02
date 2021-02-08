@@ -40,6 +40,10 @@
     color: var(--main-text);
 }
 
+.project-jpg {
+    width: 370px;
+} 
+
 .project-text {
     font-family: Roboto, sans-serif;
     font-style: normal;
