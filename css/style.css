@@ -47,7 +47,7 @@
 .contact .item a {
     list-style: none;
     text-decoration: none;
-    color: var(--main-text)
+    color: var(--link-text)
 }
 
 .contact .item:hover a {
@@ -58,4 +58,32 @@
     color: var(--hover-text);
 }
 
-/*  */
+/* hero */
+
+.hero {
+    background-color: rgba(47, 48, 58, 1);
+    ;
+}
+
+.hero-title {
+    color: var(--second-text);
+}
+
+.hero-main .button.link {
+    background-color: var(--hover-text);
+    color: var(--second-text);
+}
+
+/* features */
+
+.features-title {
+    display: none;
+}
+
+.features-items {
+    color: var(--main-text);
+}
+
+.features-items .features-text {
+    color: var(--link-text);
+}
