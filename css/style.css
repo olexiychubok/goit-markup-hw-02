@@ -1,0 +1,61 @@
+:root {
+    --second-text: rgba(255, 255, 255, 1);
+    --main-text: rgba(33, 33, 33, 1);
+    --hover-text: rgba(33, 150, 243, 1);
+    --link-text: rgba(117, 117, 117, 1);
+    --address-text-op60: rgba(255, 255, 255, 0.6);
+}
+
+/* for all */
+
+.link {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--second-text);
+}
+
+/* logo */
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text);
+}
+
+.logo-web {
+    color: var(--hover-text);
+}
+
+/* site-nav */
+
+.site-nav .link a {
+    text-decoration: none;
+    color: var(--main-text)
+}
+
+.site-nav .link:hover a {
+    color: var(--hover-text)
+}
+
+.site-nav .link:focus a {
+    color: var(--hover-text);
+}
+
+/* nav-contacts */
+.contact .item a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--main-text)
+}
+
+.contact .item:hover a {
+    color: var(--hover-text);
+}
+
+.contact .item:focus a {
+    color: var(--hover-text);
+}
+
+/*  */

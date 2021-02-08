@@ -18,7 +18,7 @@ rules:
   declaration-colon-space-after: always
   declaration-no-important: true
   indentation:
-    - 2
+    - 4
     - ignore:
         - inside-parens
   max-empty-lines: 2
