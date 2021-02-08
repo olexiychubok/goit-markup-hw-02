@@ -1,0 +1,145 @@
+:root {
+    --second-text: rgba(255, 255, 255, 1);
+    --main-text: rgba(33, 33, 33, 1);
+    --hover-text: rgba(33, 150, 243, 1);
+    --link-text: rgba(117, 117, 117, 1);
+    --address-text-op60: rgba(255, 255, 255, 0.6);
+    --section: rgba(47, 48, 58, 1);
+    --section-team: rgba(245, 244, 250, 1);
+
+
+}
+
+/* for all */
+
+.link {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.header {
+    background-color: var(--second-text);
+}
+
+/* logo */
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    color: var(--hover-text);
+}
+
+.logo-web {
+    color: var(--main-text);
+}
+
+/* site-nav */
+
+.site-nav .link a {
+    text-decoration: none;
+    color: var(--main-text)
+}
+
+.site-nav .link .item:hover,
+.site-nav .link .item:focus {
+    color: var(--hover-text)
+}
+
+/* nav-contacts */
+.contact .link .item {
+    list-style: none;
+    text-decoration: none;
+    color: var(--link-text)
+}
+
+.contact .link .item:hover,
+.contact .link .item:focus {
+    color: var(--hover-text);
+}
+
+/* MAIN! */
+/* hero */
+
+.hero {
+    background-color: var(--section)
+    ;
+}
+
+.hero-title {
+    color: var(--second-text);
+}
+
+.hero-main .button.link {
+    background-color: var(--hover-text);
+    color: var(--second-text);
+}
+
+/* features */
+
+.features-title {
+    display: none;
+}
+
+.features-items {
+    color: var(--main-text);
+}
+
+.features-items .features-text {
+    color: var(--link-text);
+}
+
+/* doing */
+
+.doing-title {
+    color: var(--main-text);
+}
+
+/* team */
+
+.team {
+    background-color: var(--section-team);
+}
+
+.team-title {
+    color: var(--main-text);
+}
+
+.team-name {
+    color: var(--main-text);
+}
+
+.team-text {
+    color: var(--link-text);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--section);
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    color: var(--hover-text);
+}
+
+.logo-footer {
+    color: var(--second-text);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-text {
+    color: var(--second-text);
+}
+
+.address .item {
+    color: var(--link-text);
+}
+
+.address .item:hover,
+.address .item:focus {
+    color: var(--hover-text)
+}

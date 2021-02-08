@@ -5,6 +5,8 @@
     --link-text: rgba(117, 117, 117, 1);
     --address-text-op60: rgba(255, 255, 255, 0.6);
     --section: rgba(47, 48, 58, 1);
+    --section-team: rgba(245, 244, 250, 1);
+
 
 }
 
@@ -94,6 +96,10 @@
 
 /* team */
 
+.team {
+    background-color: var(--section-team);
+}
+
 .team-title {
     color: var(--main-text);
 }
@@ -123,6 +129,10 @@
 
 .address {
     font-style: normal;
+}
+
+.address-text {
+    color: var(--second-text);
 }
 
 .address .item {
