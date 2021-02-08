@@ -25,7 +25,12 @@
 /* logo */
 
 .logo {
-    font-family: 'Roboto', sans-serif;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--hover-text);
 }
 
@@ -34,6 +39,15 @@
 }
 
 /* site-nav */
+
+.site-nav {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 
 .site-nav .link a {
     text-decoration: none;
@@ -46,6 +60,16 @@
 }
 
 /* nav-contacts */
+
+.contact {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .contact .link .item {
     list-style: none;
     text-decoration: none;
@@ -57,60 +81,6 @@
     color: var(--hover-text);
 }
 
-/* MAIN! */
-/* hero */
-
-.hero {
-    background-color: var(--section)
-    ;
-}
-
-.hero-title {
-    color: var(--second-text);
-}
-
-.hero-main .button.link {
-    background-color: var(--hover-text);
-    color: var(--second-text);
-}
-
-/* features */
-
-.features-title {
-    display: none;
-}
-
-.features-items {
-    color: var(--main-text);
-}
-
-.features-items .features-text {
-    color: var(--link-text);
-}
-
-/* doing */
-
-.doing-title {
-    color: var(--main-text);
-}
-
-/* team */
-
-.team {
-    background-color: var(--section-team);
-}
-
-.team-title {
-    color: var(--main-text);
-}
-
-.team-name {
-    color: var(--main-text);
-}
-
-.team-text {
-    color: var(--link-text);
-}
 
 /* footer */
 
@@ -119,7 +89,12 @@
 }
 
 .logo {
-    font-family: 'Roboto', sans-serif;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--hover-text);
 }
 
@@ -128,7 +103,12 @@
 }
 
 .address {
+    font-family: Roboto, sans-serif;
     font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .address-text {
